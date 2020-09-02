@@ -1,0 +1,30 @@
+Alumno: Muñoz Saucedo Raúl Jasiel Uriel
+
+Matricula: 12-011-0610
+
+Materia: Programación Web
+
+Proyecto: Juego de Gato o Tres en Raya.
+
+
+----------------------------------------- N O T A ------------------------------------ 
+
+
+En caso de que las rutas de los diferentes recursos del proyecto no funcionen con la ruta:
+
+../archivo.js || ../archivo.css
+
+quitar los dos puntos inciales.
+
+/**********************************************************************************************/
+
+Se arreglo el problema de que la partida si ninguno de los jugadores ganaba no mostraba que fue un empate, ahora YA lo hace.
+
+Se arreglo el problema de que siempre se empezaba con un juegador predeterminado (en este caso la X), por lo que se implemento 
+que el tipo de jugador se diera de forma random para hacer un juego más justo.
+
+Se implementó que cada vez que se hace click en un cuadro del tablero, dependiendo del turno (X || O) dicho cuadro se cambie de color.
+Los colores por los que puede cambiar son VERDE Y ROJO.
+
+NO se logró implementar la linea que cruza el tablero cuando un jugador gana la partida. Se probo la opción de canvas, pero debido a
+mi falta de conocimiento del mismo, no pude implementarlo.
